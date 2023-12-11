@@ -1,0 +1,4 @@
+- from:
+    uri: "timer:route-2"
+    steps:
+      - log: Hello abc

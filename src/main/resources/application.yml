@@ -1,0 +1,13 @@
+camel:
+  springboot:
+    main-run-controller: true
+    routes-include-pattern: "classpath:camel/**/*.yaml"
+
+#    routes-reload-enabled: true
+#    routes-reload-directory: "C:/Develop/Projects/camel-reload-sample/src/main/resources/camel"
+#    routes-reload-pattern: "*.yaml"
+#    routes-reload-remove-all-routes: false
+#    routes-reload-directory-recursive: true
+logging:
+  level:
+    org.apache.camel.component.debug.JmxConnectorService: error

@@ -1,0 +1,8 @@
+- templatedRoute:
+    routeId: route-1
+    routeTemplateRef: template-1
+    parameters:
+    - name: routeId
+      value: route-1
+    - name: message
+      value: Hello vtw!

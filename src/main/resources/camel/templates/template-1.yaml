@@ -1,0 +1,9 @@
+- routeTemplate:
+    id: template-1
+    parameters:
+    - name: routeId
+    - name: message
+    from:
+      uri: "timer://{{routeId}}"
+      steps:
+      - log: "{{message}}"
