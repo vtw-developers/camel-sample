@@ -38,7 +38,10 @@ dependencies {
     implementation 'org.apache.camel:camel-yaml-dsl'
     implementation 'org.apache.camel:camel-debug'
     implementation 'org.springframework.shell:spring-shell-starter'
+    implementation 'org.projectlombok:lombok:1.18.28'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
