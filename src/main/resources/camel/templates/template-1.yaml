@@ -1,6 +1,7 @@
 - routeTemplate:
     id: template-1
     parameters:
+    - name: routeTemplateId
     - name: routeId
     - name: message
     from:
